@@ -11,7 +11,7 @@ body{
     cursor: url(assets/imges/cursor.cur),auto;	
 }
 .slider{
-    background-image: url(assets/imges/AAAABZ2sIVr92spXMLzEuOdC4WQgIHRwAfGlIchnnAURwJzIOem2qk2yfbz5amA-nhBMW4n1lzwQukTijvAm_VbgERhQn_jm-2-1200x900.jpg);
+    background-image: url(assets/imges/bg.jpg);
     background-size: cover;
     display: flex;
     align-items: center;
