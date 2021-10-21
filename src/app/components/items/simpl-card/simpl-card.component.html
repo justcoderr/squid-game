@@ -1,0 +1,11 @@
+<div class='star-card'> <img src="{{star.img}}" alt='{{star.name}}' srcset=''>
+    <div class='star-info'>
+        <p>{{star.name}}</p> <small> {{star.role}}</small>
+        <div class='star-social-media'>
+            <a *ngIf="star.instagram" href="{{star.instagram}}"><i class='fab fa-instagram'></i></a>
+            <a *ngIf="star.facebook" href="{{star.facebook}}"><i class='fab fa-facebook'></i></a>
+            <a *ngIf="star.youtube" href="{{star.youtube}}"><i class='fab fa-youtube'></i></a>
+            <a *ngIf="star.twitter" href="{{star.twitter}}"><i class='fab fa-twitter'></i></a>
+        </div>
+    </div>
+</div>

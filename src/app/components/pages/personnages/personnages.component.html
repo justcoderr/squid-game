@@ -1,0 +1,47 @@
+<!-- <div class="section">
+    <app-title title="الشخصيات"></app-title>
+</div> -->
+<div class="section grid-2">
+    <div *ngIf="player" class="cardperson">
+        <div class="img">
+            <img id="img-playeer" src="assets/{{player.imglink}}" alt="" srcset="">
+        </div>
+        <p>الاسم : <span>{{player.name}}</span></p>
+        <p>المعرف : <span>{{player.id}}</span></p>
+        <p>المدينة : <span>{{player.city}}</span></p>
+        <p>معلومات اضافية: <span>{{player.inifo }}</span></p>
+    </div>
+    <div *ngIf="player === undefined"  class="cardperson">
+        <div class="img">
+            <img id="img-playeer" src="assets/imges/personage/empty.png" alt="" srcset="">
+        </div>
+        <p>الاسم : <span>قد تكون هده الشخصية تانوية او غير موجودة اساسا</span></p>
+        <p>المعرف : <span>????</span></p>
+        <p>المدينة : <span>????</span></p>
+        <p>معلومات اضافية: <span>???????</span></p>
+    </div>
+    <div class="cardperson serch">
+        <h1>ابحت عن شخصية</h1>
+        <input [(ngModel)]="playerid"  (keyup.enter)="findPlayer(playerid)" type="number" id="inputper" placeholder="أدخل الرقم الترتيبي للشخصية">
+        <button (click)="findPlayer(playerid)" id="search">ابحت</button>
+    </div>
+</div>
+<style>
+    .img {
+    border-top-left-radius: 28px;
+    background-color: cornflowerblue;
+    background-image: url(assets/imges/AAAABZ2sIVr92spXMLzEuOdC4WQgIHRwAfGlIchnnAURwJzIOem2qk2yfbz5amA-nhBMW4n1lzwQukTijvAm_VbgERhQn_jm-2-1200x900.jpg);
+    display: flex;
+    align-items: flex-end;
+    }
+    .grid-2 button {
+        background-color: #00627d;
+        border: none;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        border-radius: 40px;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+</style>

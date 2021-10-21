@@ -1,0 +1,32 @@
+/* .ifram{
+    width: 40vw;
+    height: 64vh;
+    margin-top: 15px;
+    border-radius: 27px;
+}
+@media screen and (max-width: 800px) {
+    
+    .ifram{
+        width: 90vw;
+        height: 50vh;
+        margin-top: 15px;
+        border-radius: 27px;
+    }
+  } */
+
+
+  .ifram{
+    width: 20vw;
+    height: 44vh;
+    margin-top: 15px;
+    border-radius: 27px;
+}
+@media screen and (max-width: 800px) {
+    
+    .ifram{
+        width: 90vw;
+        height: 50vh;
+        margin-top: 15px;
+        border-radius: 27px;
+    }
+  }

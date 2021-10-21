@@ -1,0 +1,29 @@
+.p {
+    width: 59% !important;
+    align-items: center;
+}
+
+.eps {
+    margin: 10px;
+    background-color: aquamarine !;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw;
+    align-items: center;
+    justify-content: space-around;
+    }
+    @media screen and (max-width: 800px) {
+        .p {
+            width: 80% !important;
+            align-items: center;
+        }
+    .grid-3{
+        display: grid;
+        grid-template-columns: 90vw;
+        /* padding: 10px; */
+        align-items: center;
+        justify-content: space-around;
+    }
+    }

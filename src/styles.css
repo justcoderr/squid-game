@@ -1,0 +1,106 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: sondos;
+    src: url(assets/fonts/sondos.ttf);
+    }
+body{
+    font-family: sondos;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    cursor: url(assets/imges/cursor.cur),auto;	
+}
+.slider{
+    background-image: url(assets/imges/AAAABZ2sIVr92spXMLzEuOdC4WQgIHRwAfGlIchnnAURwJzIOem2qk2yfbz5amA-nhBMW4n1lzwQukTijvAm_VbgERhQn_jm-2-1200x900.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 98.3vh;
+}
+.items-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.slider img{
+    width: 300px;
+    animation: slideranimation 1s linear infinite;
+}
+.section{
+    margin-bottom: 20px;
+    width: 100%;
+    min-height: 100vh;
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    align-items: center;
+    justify-content: space-around;
+}
+.grid-4{
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section {
+    margin-bottom: 20px;
+    width: 100%;
+    min-height: 100vh;
+}
+.bg-darkgreen{
+    background-color: darkcyan;
+}
+.ifram{
+    width: 40vw;
+    height: 64vh;
+    margin-top: 15px;
+    border-radius: 27px;
+}
+@keyframes slideranimation {
+    
+    100%{
+        margin-top: 12px;
+
+    }
+}
+@media screen and (max-width: 800px) {
+    
+    .info-text{
+        margin: 20px;
+        width: 100vw;
+    }
+    .info-content img{
+        width: 160px !important;
+        margin-top: 7px;
+    }
+    .win-info img{
+        width: 80vw;
+    }
+    /* ifram */
+    .grid-2{
+        display: grid;
+        grid-template-columns: 90vw;
+        /* padding: 10px; */
+        align-items: center;
+        justify-content: space-around;
+    }
+    .grid-4{
+        display: grid;
+        grid-template-columns: 90vw;
+        /* padding: 10px; */
+        align-items: center;
+        justify-content: space-around;
+    }
+    .ifram{
+        width: 90vw;
+        height: 50vh;
+        margin-top: 15px;
+        border-radius: 27px;
+    }
+  }

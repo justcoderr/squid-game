@@ -1,0 +1,6 @@
+<div class="section items-center">
+    <app-paragraphe class="p" [text]="content.text"></app-paragraphe>
+    <div class="grid-3">
+        <app-button class="eps" *ngFor="let item of content.eps" [btn]="item"></app-button>
+    </div>
+</div>

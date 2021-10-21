@@ -1,0 +1,14 @@
+.sectionimg{
+    width: 40vw;
+    height: 64vh;
+    margin-top: 15px;
+    border-radius: 27px;
+}
+@media screen and (max-width: 800px) {
+    .sectionimg{
+        width: 90vw;
+        height: 50vh;
+        margin-top: 15px;
+        border-radius: 27px;
+    }
+  }

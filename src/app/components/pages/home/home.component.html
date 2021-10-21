@@ -1,0 +1,23 @@
+<app-header></app-header>
+<!-- sec1 -->
+<div class="section grid-2">
+    <div>
+        <app-paragraphe [text]="content.secOne.text"></app-paragraphe>
+        <app-button [btn]="content.btn"></app-button>
+    </div>
+    <iframe class="ifram" src="https://www.youtube.com/embed/oqxAJKy0ii4" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+</div>
+<!-- sec2 -->
+<div class="section grid-2 bg-darkgreen">
+    <app-sectionimg [imglink]="content.secTwo.img"></app-sectionimg>
+    <app-paragraphe [text]="content.secTwo.text"></app-paragraphe>
+</div>
+<!-- sec3 -->
+<div class="section grid-2">
+    
+    <app-sectionimg [imglink]="content.secTr.img"></app-sectionimg>
+    <app-paragraphe [text]="content.secTr.text"></app-paragraphe>
+</div>

@@ -1,0 +1,10 @@
+<nav class="navigationbar">
+    <div  (click)="show = !false" routerLink="/" class="logo">
+        <a class="logo" routerLink="{{logoitems.link}}"><img *ngFor="let item of logoitems.image" src="{{item.img}}"
+                width="{{item.width}}" alt="" srcset=""> </a>
+    </div>
+    <div [ngClass]="{'hide' : show }" id="nanigation" class="nanigation hide">
+        <a *ngFor="let item of links" dir="ltr" (click)="showhidNav()" routerLink="{{item.link}}">{{item.text}}</a>
+    </div>
+    <i id="only-mobile" (click)="showhidNav()" class="fas fa-bars "></i>
+</nav>

@@ -1,0 +1,16 @@
+.iframm{
+    width: 20vw;
+    height: 44vh;
+    margin-top: 15px;
+    border-radius: 27px;
+    margin-bottom: 40px;
+}
+@media screen and (max-width: 800px) {
+    
+    .iframm{
+        width: 90vw;
+        height: 50vh;
+        margin-top: 15px;
+        border-radius: 27px;
+    }
+  }

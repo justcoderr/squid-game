@@ -1,0 +1,78 @@
+.star-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: flex-start;
+}
+
+h1 {
+    width: 50vw;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-top-left-radius: 29px;
+    border-bottom-right-radius: 29px;
+    background-color: #b8096b;
+}
+
+.star-social-media {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.title-team {
+    color: green !important;
+}
+
+.star-social-media i {
+    color: black;
+    margin-left: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.star-info p {
+    /* letter-spacing: 12px; */
+    margin: 0;
+    padding: 0;
+}
+
+.star-info small {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.star-card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #b8096b;
+    min-height: 300px;
+    border-radius: 28px;
+}
+
+.star-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        width: 90vw;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        border-top-left-radius: 29px;
+        border-bottom-right-radius: 29px;
+        background-color: #b8096b;
+    }
+}

@@ -1,0 +1,10 @@
+<footer>
+    <P>{{paragraph}} </P>
+    <div class="navfotter">
+        <ul class="navfotter">
+            <li *ngFor="let link of urls">
+                <a target="blank" href="{{link.link}}"> {{link.text}} <i [class]="link.icon"></i></a>
+            </li>
+        </ul>
+    </div>
+</footer>
